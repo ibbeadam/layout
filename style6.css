@@ -12,16 +12,14 @@ body {
     flex-direction: row;
     background-color: gray;
     margin: 10px;
-    float: right;
-    
 }
 
-.colum {
+.sidebar {
     display: flex;
     flex-direction: column;
     background-color: gray;
     margin: 10px;
-    width: 300px;
+    
 }
 
 .log {
@@ -45,5 +43,6 @@ body {
     margin: 5px;
     padding: 10px;
 }
+
 
 
