@@ -7,33 +7,13 @@ body {
     background-color: white;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    background-color: gray;
-    margin: 10px;
-    
-}
+
 
 .headder {
     display: flex;
     flex-direction: row;
     background-color: gray;
     margin: 10px; 
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    background-color: gray;
-    margin: 10px;
-    width: fit-content;
-    
 }
 
 .log {
@@ -50,12 +30,50 @@ body {
     padding: 10px;
 }
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 10px;
+    height: auto;
+    flex-grow: 1;
+    
+}
+
 .box {
+    
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    width: 350px;
+    min-height: 50px;
+
+}
+.main {
+    display: flex;
+}
+
+    
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 10px;
+    height: auto;
+    
+}
+.row1 {
+    display: flex;
+    flex-grow: 1;
+    background-color: gray;
+    
+}
+.box1 {
     flex-grow: 1;
     background-color: white;
     margin: 5px;
     padding: 10px;
+    overflow: auto;
 }
-
-
 
